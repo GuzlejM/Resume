@@ -5,7 +5,6 @@
 }
 
 .leftHeader, .rightHeader {
-  width: 50%;
   margin-top: 3%;
 }
 
@@ -15,9 +14,6 @@
     font-size: 50px;
 }
 
-.skillsDiv>div {
-  text-align: center;
-}
 
 .skillsDiv>div div {
 margin-top: 25px;
@@ -26,8 +22,6 @@ margin-top: 25px;
 .skillsDiv ul {
   text-align: left;
   list-style: none;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 section {
@@ -70,6 +64,15 @@ section div div span {
   .skillsDiv>div {
     text-align: center;
     width: 33%;
+  }
+
+  .leftHeader, .rightHeader {
+    width: 50%;
+    margin-top: 3%;
+  }
+
+  .skillsDiv>div {
+    text-align: center;
   }
 }
 
