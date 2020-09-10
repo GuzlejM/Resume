@@ -9,8 +9,6 @@ app.get("/", (req, res) => {
     res.render(__dirname + '/index.html');
 });
 
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server on!")
 }); 
