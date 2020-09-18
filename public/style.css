@@ -62,14 +62,23 @@ section div div span {
   }
 
   .skillsDiv>div {
-    text-align: left;
+    text-align: center;
     width: 33%;
+  }
+
+  .skillsDiv>div>div {
+    text-align: left;
   }
 
   .leftHeader, .rightHeader {
     width: 50%;
     margin-top: 3%;
   }
+  section div div span {
+    margin-top: 1rem;
+    text-align: ;
+  }
+
 }
 
 
